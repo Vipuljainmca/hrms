@@ -1,0 +1,52 @@
+.employee-data {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.feild-head {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+  color: gray;
+}
+
+.feild-detail {
+  font-weight: 600;
+  font-size: 0.9rem;
+  width: 145px;
+  margin-top: 0;
+}
+
+.employee-personal-information {
+  margin-right: 2rem;
+}
+
+.profile-img {
+  height: 100px;
+  width: 100px;
+  margin-top: 1.2rem;
+}
+
+.employee-name {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* align-items: flex-start;  */
+  margin-bottom: 0;
+}
+
+.employee-main-detail {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  color: grey;
+  margin-left: 1rem;
+}
+
+.employee-detail-and-name {
+  padding-top: 1rem;
+  position: relative;
+  right: 3rem;
+}

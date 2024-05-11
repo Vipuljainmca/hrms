@@ -1,0 +1,45 @@
+.feild-head {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+  color: gray;
+}
+
+.small-width {
+  min-width: 150px;
+  max-width: 175px;
+  margin-right: 1rem;
+
+  /* gap: 0.5rem; */
+  /* margin: 0 0.5rem; */
+}
+.smedium-width {
+  min-width: 200px;
+  /* margin: 0 0.5rem; */
+  /* gap: 0.5rem; */
+  margin-right: 1rem;
+
+  max-width: 224px;
+}
+.medium-width {
+  min-width: 220px;
+  /* margin: 0 0.5rem; */
+  /* gap: 0.5rem; */
+  margin-right: 1rem;
+
+  max-width: 280px;
+}
+
+.large-width {
+  min-width: 320px;
+  margin-right: 1rem;
+  /* gap: 0.5rem; */
+  max-width: 380px;
+}
+
+.onebythreefeild {
+  width: 30%;
+}
+
+.onebytwofeild {
+  width: 48%;
+}

@@ -1,0 +1,155 @@
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.customers td,
+.customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.customers tr:hover {
+  background-color: #ddd;
+}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #87b3f4;
+  color: white;
+}
+
+.customers th:hover {
+  background: #87b3a4;
+}
+
+.warn {
+  text-align: center;
+}
+
+.warn div {
+  text-align: center;
+}
+
+.custom-btn1 {
+  /* margin: 10px 5px; */
+  padding-bottom: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.custom-btn {
+  padding: 3px 6px;
+  margin: 10px 5px;
+  background-color: white;
+  font-size: 0.8rem;
+}
+
+.custom-btn1:disabled {
+  cursor: default;
+  color: rgba(255, 255, 255, 0.486);
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #87b3f4;
+  color: white;
+  border-top-left-radius: 6px; /* Round the top-left corner */
+  border-top-right-radius: 6px; /* Round the top-right corner */
+  border-bottom-left-radius: 6px; /* Keep bottom-left corner straight */
+  border-bottom-right-radius: 6px; /* Keep bottom-right corner straight */
+}
+
+.input-ele {
+  border: none;
+  width: 40px;
+  margin: 10px 10px;
+  text-align: center;
+  /* border: 1px solid black; */
+  border-radius: 4px;
+}
+.input-ele:focus {
+  outline: none;
+}
+
+.dropdown {
+  border: none;
+  border-radius: 4px;
+  padding: 0 5px;
+  align-items: center;
+}
+
+.dropdown:focus {
+  outline: none;
+}
+
+.form-control {
+  border-color: black;
+  width: 80%;
+  margin: 0 30px;
+}
+
+.floatingInput {
+  position: relative;
+  left: 50px;
+}
+
+.filter-input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  padding-left: 2.5rem;
+}
+
+.filter-input:focus {
+  box-shadow: 0px 0.5px 10px #87b3f4;
+  outline: none;
+}
+
+.filter-div {
+  /* text-align: center; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'overlap';
+}
+
+.item1 {
+  grid-area: overlap;
+}
+
+.item2 {
+  grid-area: overlap;
+}
+
+.search-icon {
+  color: gray;
+  position: relative;
+  left: 1rem;
+  top: 0.75rem;
+}
+.clickable-btn-hover {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
+.clickable-btn-hover:hover {
+  color: #4586e7;
+  text-decoration: underline;
+}

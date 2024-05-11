@@ -1,0 +1,112 @@
+.icon-btn {
+  border: none;
+  background-color: transparent;
+  color: gray;
+}
+
+.overview-card {
+  width: 370px;
+  height: 370px;
+  padding: 10px;
+}
+
+.overview-card-title {
+  font-size: 2rem;
+  color: lightblue;
+  margin-bottom: 0;
+}
+
+.overview-card-subtitle {
+  margin-top: 0;
+  font-weight: 500;
+}
+.line-graph-title {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+
+.line-graph-content {
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+
+.overview-card-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  /* justify-content: space-between; */
+}
+
+.line-graph-div {
+  margin-bottom: 10px;
+}
+.custom-border {
+  border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.custom-birthdaycard {
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 0.25rem;
+}
+
+.today-heading {
+  margin-bottom: 1rem;
+  padding: 20px;
+  font-weight: 600;
+}
+
+.birthday-card {
+  width: 370px;
+  /* height: 315px; */
+  /* margin: 30px; */
+  padding: 20px 0 0 0;
+  /* margin-bottom: -20px; */
+}
+
+.gift-icon {
+  color: rgb(167, 142, 0);
+  font-size: 1.5rem;
+}
+
+.birthday-wish-box {
+  padding: 10px;
+}
+
+.birth-wish-p {
+  font-size: 0.8rem;
+  margin: 0 0 0 2px;
+}
+.birthday-wish-innerbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.profile-picture-small {
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+}
+
+.birth-pern-name {
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  /* font-weight: 600; */
+}
+
+.birth-pern-mail {
+  font-size: 0.8rem;
+}
+
+.mail-icon {
+  font-size: 1.3rem;
+  color: gray;
+}
+
+.custom-border {
+  border: 1px solid rgba(0, 0, 0, 0.18);
+}
